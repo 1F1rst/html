@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/foto-m.png" type="image/x-icon">
+    <title>Site01</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aqui utilizarei dos meus atuais conhecimentos de HTML5 e CSS</h1>
+    <h2>mexendo com imagens</h2>
+    <picture>
+        <!--para que a imgem se adapite a imagem maior deve ficar por de baixo das imagens menores dentro de source-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h2>Mexendo com videos hopedados no yt e abertura de outras paginas</h2>
+    <a href="pag002.html"><img src="imagens/image.png" alt=""></a>
+    <h2>Brincando com Links externos</h2>
+    <p>me siga no <a href="https://www.instagram.com" target="_blank" type="externos">instagram</a></p>
+
+</body>
+</html>

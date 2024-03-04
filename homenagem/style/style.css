@@ -1,0 +1,113 @@
+/*paleta de cores utilizada: https://color.adobe.com/Green-Globe-On-Moss---Environmental-Concept--color-theme-12819809/ #AdobeColor #AdobeColorThemes */
+
+@font-face {
+    font-family: 'viberate';
+    src: url(../fonts/VIBERATE.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, #042940,#005C53);
+}
+
+h1{
+    font-family: viberate;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 7px;
+}
+
+main{
+    box-shadow: 10px 10px 15px #010f188c;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dbdbd2;
+    max-width: 600px;
+    min-width: 320px;
+    padding: 15px;
+}
+
+h2{
+    color: black;   
+}
+
+p{
+    color: black;
+}
+
+.one{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.one abbr{
+    text-decoration: none;
+}
+
+.one2{
+    font-size: 25px;
+    color: black;
+}
+
+.second{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+ 
+.vermelho{
+    color: red;
+    background-color: red;
+}
+
+.rosa{
+    background-color: rgb(255, 0, 149);
+}
+
+ul{
+    text-align: initial;
+}
+
+a{
+    color: #758d24;
+    text-decoration: none;
+}
+
+button{
+    border-radius: 20px;
+    background-color: #042940;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn1 a{
+    color: #02a191;
+}
+
+.btn1 a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+li{
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #02a191;
+    text-decoration: underline;
+}

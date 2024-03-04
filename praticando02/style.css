@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+
+}
+body{
+    color: white;
+    background-image: linear-gradient(to left, rgb(20, 20, 20),rgb(36, 36, 36));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 15px;
+    display: flex;
+}
+
+header>h1{
+    color: red;
+    text-shadow: 3px 3px 3px black;
+}
+
+header>nav>a{
+    justify-content: right;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin: 30px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+.s2>article{
+    text-align: right;
+}
+
+.a1{
+    width: 550px;
+    font-size: 20px;
+}
+
+.a2{
+    font-size: 20px;
+}

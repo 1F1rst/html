@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(78, 78, 78);
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+main{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+img{
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 3px 3px 5px black;
+}
+
+.boxvideo{
+    position: relative;
+    padding-bottom: 51.1%;
+    padding-top: 25px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.boxvideo > iframe{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+    box-shadow: 3px 3px 5px black;
+}
+
+.bottom{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    transition-duration: .3s;
+    margin: auto;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom>a:hover{
+    text-decoration: underline;
+}
+
+.bottom:hover{
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    height: 25px;
+}
