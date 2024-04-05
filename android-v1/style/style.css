@@ -16,6 +16,9 @@
     --font-android: 'Android', cursive;
     --box-shadow-padrao-texto: 2px 2px 5px rgba(0, 0, 0, 0.400);
     --simbolo-link-externo: "\00a0\1F517";
+
+    --seta-direita: "\27A1";
+    --seta-esquerda: "\2B05";
 }
 
 *{
@@ -48,7 +51,7 @@ header>h1{
     font-family:'Bebas Neue', cursive ;
     text-align: center;
     padding:0px ;
-    font-size: 2em;
+    font-size: 2.5em;
     text-shadow: var(--box-shadow-padrao-texto);
 }
 
@@ -83,6 +86,14 @@ nav a:link, nav > a:visited {
 nav a:hover{
     background-color: var(--cor2);
     color: var(--cor3) ;
+}
+
+nav a:hover::after{
+    content: var(--seta-esquerda);
+}
+
+nav  a:hover::before{
+    content: var(--seta-direita);
 }
 
 main{
