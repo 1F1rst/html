@@ -1,0 +1,168 @@
+/*
+ --cor1:#A60303
+ --cor2:#F29F05
+ --cor3:#D9CB04
+ --cor4:#05C7F2
+ --cor5:#085CA6
+ --cor6:#E07B64
+*/
+
+:root{
+    --cor1:#A60303;
+    --cor2:#F29F05;
+    --cor3:#D9CB04;
+    --cor4:#05C7F2;
+    --cor5:#085CA6;
+    --cor6:#E07B64;
+    --box-shadow-padrao-texto: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    --simbolo-link-externo: "\00a0\1F517";
+    --seta-direita:"\27A1";
+    --seta-esquerda:"\2B05";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-seriif; 
+}
+
+body{
+    background-color: #037d999a;
+}
+
+
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top, var(--cor4),var(--cor5));
+        transition-duration: .5s;
+    }
+
+header h1{
+    font-size: 3em;
+    padding: 15px;
+}
+
+header p{
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 15px;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: var(cor5);
+    transition-duration: .5s;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 7px 7px 0px 0px;
+    text-decoration: underline;
+    color: black;
+}
+
+main{
+    min-width:320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    background-color: white;
+    box-shadow: var(--box-shadow-padrao-texto);
+}
+
+main h1{
+     text-align: center;
+}
+
+main p{
+    font-size: 20px;
+}
+
+
+aside{
+    transition-duration: .5s;
+    padding: 10px;
+}
+
+aside h2{
+    text-decoration: underline;
+    color: rebeccapurple;
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+aside p{
+    text-indent: 10px;
+    padding: 10px;
+}
+
+.op{
+    color: red;
+    text-decoration: none;
+}
+
+.op:hover{
+    text-decoration: underline;
+}
+
+.db{
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+.db:hover{
+    text-decoration: underline;
+}
+
+.bc{
+    color: rgb(172, 5, 5);
+    text-decoration: none;
+}
+
+.bc:hover{
+    text-decoration: underline;
+}
+
+#op:hover{
+    color: var(--cor1);
+}
+
+#db:hover{
+    color: rgb(255, 145, 0);
+}
+
+footer{
+    color: white;
+    padding: 6px;
+    background-color: black;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+footer::after{
+    content: var(--simbolo-link-externo);
+}

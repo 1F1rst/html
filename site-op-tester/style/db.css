@@ -1,0 +1,150 @@
+/*
+ --cor1:#DE3231
+ --cor2:#DE6F31
+ --cor3:#DE5131
+ --cor4:#DE3194
+ --cor5:#DE8D31
+ --cor6:#E07B64
+*/
+
+:root{
+    --cor1:#DE3231;
+    --cor2:#DE6F31;
+    --cor3:#DE5131;
+    --cor4:#DE3194;
+    --cor5:#DE8D31;
+    --cor6:#E07B64;
+    --box-shadow-padrao-texto: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    --simbolo-link-externo: "\00a0\1F517";
+    --seta-direita:"\27A1";
+    --seta-esquerda:"\2B05";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor6);
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+}
+
+header h1{
+    font-size: 3em;
+    padding: 15px;
+}
+
+header p{
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+nav{
+    background-color: var(--cor1);
+    padding: 15px;
+}
+
+nav a{
+    padding: 15px;
+    transition-duration: .5s;
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 7px 7px 0px 0px;
+    text-decoration: underline;
+    color: black;
+}
+
+main{
+    min-width:320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    background-color: white;
+    box-shadow: var(--box-shadow-padrao-texto);
+}
+
+main h1{
+    text-align: center;
+}
+
+main p{
+    font-size: 20px;
+}
+
+article{
+    transition-duration: .5s;
+    padding: 10px;
+}
+
+article h2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-decoration: underline;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+article p{
+    text-indent: 10px;
+}
+
+aside{
+    text-align: center;
+    background-color: var(--cor4);
+    color: white;
+    margin: 20px;
+}
+
+aside p{
+    columns: 1;
+}
+
+footer{
+    color: white;
+    padding: 6px;
+    background-color: black;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+footer::after{
+    content: var(--simbolo-link-externo);
+}
+
+#home:hover{
+    color: rgb(0, 255, 0);
+}
+
+#op:hover{
+    color: red;
+}
+
+#bc:hover{
+    color: black;
+}

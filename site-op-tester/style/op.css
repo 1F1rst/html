@@ -1,0 +1,153 @@
+/*
+ --cor1:#A60303
+ --cor2:#F29F05
+ --cor3:#D9CB04
+ --cor4:#05C7F2
+ --cor5:#085CA6
+ --cor6:#E07B64
+*/
+
+:root{
+    --cor1:#A60303;
+    --cor2:#F29F05;
+    --cor3:#D9CB04;
+    --cor4:#05C7F2;
+    --cor5:#085CA6;
+    --cor6:#E07B64;
+    --box-shadow-padrao-texto: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    --simbolo-link-externo: "\00a0\1F517";
+    --seta-direita:"\27A1";
+    --seta-esquerda:"\2B05";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor5);
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+}
+
+header h1{
+    font-size: 3em;
+    padding: 15px;
+}
+
+header p{
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 15px;
+}
+
+nav a{
+    padding: 15px;
+    transition-duration: .5s;
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 7px 7px 0px 0px;
+    text-decoration: underline;
+    color: black;
+}
+
+main{
+    min-width:320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    background-color: white;
+    box-shadow: var(--box-shadow-padrao-texto);
+}
+
+main h1{
+    text-align: center;
+}
+
+main p{
+    font-size: 20px;
+}
+
+article{
+    transition-duration: .5s;
+    padding: 10px;
+}
+
+article h2{
+    color: var(--cor3);
+    text-decoration: underline;
+    padding: 6px;
+    background-image: linear-gradient(to right, var(--cor6), transparent);
+    border-radius: 20px;
+}
+
+article p{
+    text-indent: 10px;
+    padding: 10px;
+}
+
+#home:hover{
+    color: rgb(4, 255, 4);
+}
+
+#db:hover{
+    color: rgb(255, 123, 0);
+}
+
+footer{
+    color: white;
+    padding: 6px;
+    background-color: black;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+footer::after{
+    content: var(--simbolo-link-externo);
+}
+
+.responsive-video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    margin: 0px;
+    background-color: red;
+}
+
+.responsive-video iframe{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+}
