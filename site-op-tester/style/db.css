@@ -27,7 +27,7 @@
 }
 
 body{
-    background-color: var(--cor6);
+  background-image: url(../images/db.jpg);
 }
 
 header{

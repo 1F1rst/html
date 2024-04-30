@@ -1,0 +1,18 @@
+div{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+div.d1{
+    background-image: url(images/pattern003.png);
+}
+
+div.d2{
+    background-image: url(images/wallpaper001.jpg);
+}
+
+div.d3{
+    background-image: linear-gradient(to right, blue, purple);
+}

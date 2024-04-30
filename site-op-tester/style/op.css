@@ -14,7 +14,7 @@
     --cor4:#05C7F2;
     --cor5:#085CA6;
     --cor6:#E07B64;
-    --box-shadow-padrao-texto: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    --box-shadow-padrao-texto: 5px 5px 5px rgba(0, 0, 0, 0.596);
     --simbolo-link-externo: "\00a0\1F517";
     --seta-direita:"\27A1";
     --seta-esquerda:"\2B05";
@@ -27,13 +27,13 @@
 }
 
 body{
-    background-color: var(--cor5);
+
 }
 
 header{
     color: white;
     text-align: center;
-    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+    background-image: linear-gradient(to top, var(--cor1), var(--cor3));
 }
 
 header h1{
@@ -49,7 +49,7 @@ header p{
 }
 
 nav{
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     padding: 15px;
 }
 
@@ -68,12 +68,10 @@ nav a:hover{
 }
 
 main{
-    min-width:320px;
-    max-width: 800px;
-    margin: auto;
-    border-radius: 0px 0px 8px 8px;
-    background-color: white;
-    box-shadow: var(--box-shadow-padrao-texto);
+    background-image: url(../images/op.jpg);
+    background-repeat:repeat;
+    background-position: center center;
+
 }
 
 main h1{
@@ -85,8 +83,18 @@ main p{
 }
 
 article{
+    min-width:320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    background-color: white;
+    box-shadow: var(--box-shadow-padrao-texto);
     transition-duration: .5s;
     padding: 10px;
+}
+
+article h1{
+    font-size: 2em;
 }
 
 article h2{
