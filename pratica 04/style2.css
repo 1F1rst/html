@@ -1,0 +1,15 @@
+div.container{
+    position: relative;
+    background-color: pink;
+    height: 96vh;
+}
+
+div.conteudo{
+    position: absolute;
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
