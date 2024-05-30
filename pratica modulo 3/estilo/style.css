@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+header{
+    height: 200px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    margin-bottom: 300px;
+    border-radius: 20px 0px 20px 0px;
+}
+section{
+    height: 500px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 2.8vw;
+}
+section.normal{
+    background-color: white;
+}
+section.image{
+    color: white;
+    padding: 15px;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+section>p{
+    text-align: justify;
+}
+section#img01{
+    background-image: url(../imagens/lobo.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+section#img02{
+    background-image: url(../imagens/onça.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+}
+main>section.imagem>p{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px 
+}
+#container{
+    background-color: white;
+    position: relative;
+}
+#conteudo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
