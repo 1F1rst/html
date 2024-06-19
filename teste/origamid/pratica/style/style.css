@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 15px;
+}
+.iten{
+    background-color: rgb(245, 243, 243);
+    border: 1px solid #e7e7e7;
+}
+.comprar{
+    background-color: seagreen;
+    padding: 10px 20px;
+    justify-items: start;
+}
+
+
