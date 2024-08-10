@@ -1,0 +1,8 @@
+img{
+    width: 100%;
+    display: block;
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
