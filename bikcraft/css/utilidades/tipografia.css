@@ -6,6 +6,25 @@
 }
 .texto-medio{
     font-family: 'roboto';
-    font-weight: 400;    font-size: 24px;
+    font-weight: 400;   
+    font-size: 24px;
     line-height: 1.5;
+}
+.font-price{
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 0.9;
+}
+.texto-span{
+    font-family: 'roboto';
+    font-weight: 600;   
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.titulo-pequeno{
+    font-size: 24px;
+}
+.menor-paragrafo{
+    font-size: 19px;
 }
