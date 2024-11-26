@@ -4,9 +4,21 @@
     font-family: 'Poppins';
     font-weight: 600;
 }
-.texto-medio{
+.texto-grande-m{
+    font-size: 44px;
+    line-height: 1.125;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.texto-medio-1{
     font-family: 'roboto';
     font-weight: 400;   
+    font-size: 24px;
+    line-height: 1.5;
+}
+.texto-medio-2{
+    font-family: 'roboto';
+    font-weight: 500;   
     font-size: 24px;
     line-height: 1.5;
 }
