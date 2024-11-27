@@ -36,7 +36,7 @@
     display: inline-block;
     height: 8px;
     width: 12px;
-    background-color: var(--cor-p1);
+    background-color: #ffbb00;
     margin-right: 8px;
     transition-duration: 0.2s;
 }

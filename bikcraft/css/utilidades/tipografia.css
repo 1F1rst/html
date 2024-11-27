@@ -10,16 +10,26 @@
     font-family: 'Poppins';
     font-weight: 600;
 }
+.texto-medio{
+    font-size: 20px;
+    font-weight: 600px ;
+}
 .texto-medio-1{
     font-family: 'roboto';
     font-weight: 400;   
-    font-size: 24px;
+    font-size: 15px;
     line-height: 1.5;
 }
 .texto-medio-2{
     font-family: 'roboto';
     font-weight: 500;   
-    font-size: 24px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.texto-medio-3{
+    font-family: 'Arial';
+    font-weight: 600;   
+    font-size: 15px;
     line-height: 1.5;
 }
 .font-price{
