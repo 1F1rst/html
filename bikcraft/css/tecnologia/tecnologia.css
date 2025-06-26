@@ -46,7 +46,10 @@ margin-bottom: 28px;
     object-fit: cover;
     object-position: left;
 }
-@media(max-width:800px){
+@media(max-width:1000px){
+    .tecnologia-imagem{
+        display: none;
+    }
     .tecnologia-bg{
         box-shadow: initial;
     }
@@ -55,9 +58,6 @@ margin-bottom: 28px;
     }
     .tecnologia-conteudo{
         padding: 60px 30px;
-    }
-    .tecnologia-imagem{
-        display: none;
     }
     .tecnologia a{
         margin-bottom: 60px;
